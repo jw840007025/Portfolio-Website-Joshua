@@ -1,0 +1,123 @@
+@charset  "utf-8";
+
+/* CSS Document */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  max-width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+
+.col-2 {
+  width: 16.6%;
+  float: left;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-5 {
+  width: 41.66%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+
+.col-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.udacity-logo {
+  float: left;
+}
+
+.header {
+  text-align:  right;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #767676;
+  font-size: 150%;
+  font-family: constantia,"lucida bright","dejavu serif",georgia,serif;
+  margin-top: -.7em;
+  margin-left: 20%;
+  max-width: 100%;
+}
+
+.subtitle {
+  text-align: right;
+  font-family: constantia,"lucida bright","dejavu serif",georgia,serif;
+  color: #FF3538;
+  font-size: 50%;
+  margin-top: -3em;
+  margin-bottom: 3em;
+}
+
+.main-image {
+  margin-top: 2em;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.featured-work-title {
+  font-family: constantia,"lucida bright","dejavu serif",georgia,serif;
+  font-size: 20px;
+  color: #000;
+}
+
+.featured-work-text {
+  text-align: center;
+  font-family: constantia,"lucida bright","dejavu serif",georgia,serif;
+}
+
+featured-work {
+	display:  flex;
+}

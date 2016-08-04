@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.featured-work-one-third {
+	width:  75%;
+}
+
+.main-image-one-third {
+	width:  75%;
+	float:  center;
+}
+
+
+.header {
+  text-align:  right;
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #767676;
+  font-size: 150%;
+  font-family: constantia,"lucida bright","dejavu serif",georgia,serif;
+  margin-top: -.7em;
+  margin-left: 20%;
+  max-width: 100%;
+}
+
+.col-4-800-2 {
+	width:  75%;
+}
+
+.col-4-800 {
+	width:  75%;
+	margin-bottom:  .5em;
+	border-bottom-style:  solid;
+	border-bottom-color:  #FF3538;
+	padding-bottom:  .5em;
+}
+
+.img-responsive-featured-work-images-800 {
+	width:  calc((100% - 1em)/3);
+	height:  auto;
+	float:  left;
+}
+
+.middle-margin-800 {
+	width:  calc((100% - 1em)/3);
+	float:  left;
+	margin-left:  .5em;
+	margin-right:  .5em;
+}
+
+.featured-work-text-800 {
+	font-size:  14px;
+	font-family:  Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin-bottom:  2em;
+	text-align:  center;
+}
+
+.udacity-logo {
+  float: left;
+}
+
+
